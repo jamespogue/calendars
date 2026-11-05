@@ -1,0 +1,441 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SSCM Calendar//Wednesday Religious Education//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SS. Cyril & Methodius Wednesday Religious Education
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:974b5011-ea2a-5248-9ee8-a8a284865f71@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20260923T230000Z
+DTEND:20260924T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1100cd7a-3899-5567-a079-cba43e6b0da9@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20260930T230000Z
+DTEND:20261001T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:877cac3b-0f17-573f-bdb6-b7a2ab69abc8@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20261007T230000Z
+DTEND:20261008T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:215e810d-8935-586f-9309-eefdd3ae9d7b@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20261021T230000Z
+DTEND:20261022T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3eebfd81-a8bf-51f1-bf52-da0a7293b543@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20261028T230000Z
+DTEND:20261029T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ef1a2f89-60c8-599c-8012-d2350e87c3a0@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20261105T000000Z
+DTEND:20261105T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:07fef5bf-f039-53cd-adce-2bb475b1bd25@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20261112T000000Z
+DTEND:20261112T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2514fa49-3abd-5c3c-944b-769c5d51f9bf@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20261119T000000Z
+DTEND:20261119T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:70882e87-38bd-5a0a-8706-840921368747@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20261203T000000Z
+DTEND:20261203T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f2c14bca-d78a-57d5-981d-f2783bed20e4@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20261210T000000Z
+DTEND:20261210T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:02370974-b9c2-5920-bf15-bca7e754fc7f@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20261217T000000Z
+DTEND:20261217T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e302e1eb-4578-5f71-9997-8b2fd7aff7c6@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270107T000000Z
+DTEND:20270107T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:994531a8-8524-51b2-87ad-885c373363de@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270114T000000Z
+DTEND:20270114T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cec3de36-a5f8-5b7a-af8e-3d10a4c8cd74@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270128T000000Z
+DTEND:20270128T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6935b3cc-ad1b-588e-9d21-4a7f74aee472@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270204T000000Z
+DTEND:20270204T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f69532e8-09bc-5869-986b-f897328461a7@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270218T000000Z
+DTEND:20270218T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:07d4b1ee-6da8-5a04-9a1b-cbe57fa3da54@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270225T000000Z
+DTEND:20270225T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:86f163eb-b2f9-536b-9d18-d2015a382726@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270304T000000Z
+DTEND:20270304T013000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4965b6c7-d958-566b-a483-0c38d2d25ef7@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270317T230000Z
+DTEND:20270318T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2091e0ed-979b-50d0-a8b3-3ba052c5b19d@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270331T230000Z
+DTEND:20270401T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e8582ff5-e7b7-5e55-9a47-59c4302c774a@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270414T230000Z
+DTEND:20270415T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:59314f44-e579-58fd-99d6-f414d19570c8@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270421T230000Z
+DTEND:20270422T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cbd8613b-0eee-5822-8de9-60bd6c22809b@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270428T230000Z
+DTEND:20270429T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Optional snow makeup date: May 12\, 2027\, only if needed. Schedule: ht
+ tps://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:99a25699-5a3f-5050-aa65-ae55705a8217@sscm-calendar
+DTSTAMP:20261105T001403Z
+DTSTART:20270505T230000Z
+DTEND:20270506T003000Z
+SUMMARY:SS. Cyril & Methodius Religious Education - Closing Mass
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Wednesday religious education session. 2026-2027 parish calenda
+ r. Last day of class\; closing Mass for all at 6:00 PM. End time follows t
+ he regular session time. Optional snow makeup date: May 12\, 2027\, only i
+ f needed. Schedule: https://re.stcyril.org/wednesday-session/
+URL:https://re.stcyril.org/wednesday-session/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4f2ef696-2e4b-5728-8276-d83a3780cb92@sscm-calendar
+DTSTAMP:20261105T002536Z
+DTSTART:20260920T173000Z
+DTEND:20260920T183000Z
+SUMMARY:SS. Cyril & Methodius - Opening RE Mass
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:All RE students are asked to attend. No grade levels specified.
+ \nOne-hour duration requested by user.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5cc2337e-138e-52fc-acc0-469499295ab9@sscm-calendar
+DTSTAMP:20261105T002536Z
+DTSTART:20261025T173000Z
+DTEND:20261025T183000Z
+SUMMARY:SS. Cyril & Methodius - Sunday RE Mass (8th & 2nd grades)
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:All RE students are asked to attend. Grade designation: 8th & 2
+ nd grades.\nOne-hour duration requested by user.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a3a29113-77a8-5647-b751-48f09a73cdd2@sscm-calendar
+DTSTAMP:20261105T002536Z
+DTSTART:20261115T183000Z
+DTEND:20261115T193000Z
+SUMMARY:SS. Cyril & Methodius - Sunday RE Mass
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:All RE students are asked to attend. No grade levels specified.
+ \nOne-hour duration requested by user.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:38e55280-237b-5161-bebb-075559f9131b@sscm-calendar
+DTSTAMP:20261105T002536Z
+DTSTART:20270110T183000Z
+DTEND:20270110T193000Z
+SUMMARY:SS. Cyril & Methodius - Sunday RE Mass
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:All RE students are asked to attend. No grade levels specified.
+ \nOne-hour duration requested by user.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:57f80cc8-2e99-56b0-8699-6eb16a642c0c@sscm-calendar
+DTSTAMP:20261105T002536Z
+DTSTART:20270221T183000Z
+DTEND:20270221T193000Z
+SUMMARY:SS. Cyril & Methodius - Sunday RE Mass
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:All RE students are asked to attend. No grade levels specified.
+ \nOne-hour duration requested by user.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f7f21ab7-fc58-5dc8-8549-d3ea1819e584@sscm-calendar
+DTSTAMP:20261105T002536Z
+DTSTART:20270418T173000Z
+DTEND:20270418T183000Z
+SUMMARY:SS. Cyril & Methodius - Sunday RE Mass
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:All RE students are asked to attend. No grade levels specified.
+ \nOne-hour duration requested by user.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ac593a3f-a40d-5086-9205-ddf1fc9c9fcb@sscm-calendar
+DTSTAMP:20261105T004541Z
+DTSTART:20270206T150000Z
+DTEND:20270206T200000Z
+SUMMARY:SS. Cyril & Methodius - Sacrament of First Reconciliation
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Date from the local parent calendar. Time range provided by use
+ r: 9 AM to 2 PM Central.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7fc2acd7-0016-5172-baaa-45a3ad42aab9@sscm-calendar
+DTSTAMP:20261105T004641Z
+DTSTART:20270501T173000Z
+DTEND:20270501T203000Z
+SUMMARY:SS. Cyril & Methodius - First Holy Communion (English & Polish)
+LOCATION:SS. Cyril & Methodius Parish\, 608 Sobieski Street\, Lemont\, IL 6
+ 0439
+DESCRIPTION:Date from the local parent calendar. Time provided by user: 12:
+ 30 to 3:30 PM Central.
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
