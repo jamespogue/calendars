@@ -1,0 +1,13 @@
+{
+	"name": "calendars",
+	"private": true,
+	"description": "Subscribable Lewis University course calendars",
+	"scripts": {
+		"format": "prettier --write .",
+		"check": "prettier --check ."
+	},
+	"devDependencies": {
+		"prettier": "3.6.2",
+		"prettier-plugin-tailwindcss": "0.6.14"
+	}
+}

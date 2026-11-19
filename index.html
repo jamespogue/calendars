@@ -1,124 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Calendars</title>
-	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.11"></script>
-</head>
-<body class="bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100">
-<main class="mx-auto max-w-3xl px-4 pt-8 pb-12">
-	<h1 class="mb-1 text-3xl font-bold">Calendars</h1>
-	<p class="mb-2 text-slate-600 dark:text-slate-400">
-		Subscribe to any of these calendars and they'll stay up to date automatically in your calendar app.
-		Subscribing is different from importing: an imported file never receives changes.
-	</p>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calendars</title>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.11"></script>
+	</head>
+	<body class="bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100">
+		<main class="mx-auto max-w-3xl px-4 pb-12 pt-8">
+			<h1 class="mb-1 text-3xl font-bold">Calendars</h1>
+			<p class="mb-2 text-slate-600 dark:text-slate-400">
+				Subscribe to any of these calendars and they'll stay up to date automatically in your calendar app. Subscribing
+				is different from importing: an imported file never receives changes.
+			</p>
 
-	<div id="calendars"></div>
+			<div id="calendars"></div>
 
-	<details class="mt-8 rounded-xl border border-slate-200 bg-white px-4 py-3 dark:border-slate-800 dark:bg-slate-900">
-		<summary class="cursor-pointer font-semibold">How to subscribe</summary>
-		<ul class="mt-3 list-disc space-y-1.5 pl-5">
-			<li><strong>iPhone, iPad, or Mac:</strong> tap <em>Apple / Outlook</em> and confirm <em>Subscribe</em>.</li>
-			<li><strong>Google Calendar:</strong> click <em>Google Calendar</em> and confirm <em>Add</em>.
-				On a phone, do this once from a computer; the calendar then syncs to the Google Calendar app.</li>
-			<li><strong>Outlook (desktop):</strong> tap <em>Apple / Outlook</em>, or copy the link and use
-				<em>Add calendar &rarr; Subscribe from web</em>.</li>
-			<li><strong>Anything else:</strong> copy the link and look for <em>Add calendar from URL</em> or <em>Subscribe</em>.</li>
-		</ul>
-		<p class="mt-3 text-slate-600 dark:text-slate-400">
-			Calendar apps check for updates on their own schedule (Google can take up to a day), so changes may not appear right away.
-		</p>
-	</details>
+			<details
+				class="mt-8 rounded-xl border border-slate-200 bg-white px-4 py-3 dark:border-slate-800 dark:bg-slate-900"
+			>
+				<summary class="cursor-pointer font-semibold">How to subscribe</summary>
+				<ul class="mt-3 list-disc space-y-1.5 pl-5">
+					<li><strong>iPhone, iPad, or Mac:</strong> tap <em>Apple / Outlook</em> and confirm <em>Subscribe</em>.</li>
+					<li>
+						<strong>Google Calendar:</strong> click <em>Google Calendar</em> and confirm <em>Add</em>. On a phone, do
+						this once from a computer; the calendar then syncs to the Google Calendar app.
+					</li>
+					<li>
+						<strong>Outlook (desktop):</strong> tap <em>Apple / Outlook</em>, or copy the link and use
+						<em>Add calendar &rarr; Subscribe from web</em>.
+					</li>
+					<li>
+						<strong>Anything else:</strong> copy the link and look for <em>Add calendar from URL</em> or
+						<em>Subscribe</em>.
+					</li>
+				</ul>
+				<p class="mt-3 text-slate-600 dark:text-slate-400">
+					Calendar apps check for updates on their own schedule (Google can take up to a day), so changes may not appear
+					right away.
+				</p>
+			</details>
 
-	<footer class="mt-8 text-sm text-slate-500 dark:text-slate-400">Eric Pogue &amp; James Pogue</footer>
-</main>
+			<footer class="mt-8 text-sm text-slate-500 dark:text-slate-400">Eric Pogue &amp; James Pogue</footer>
+		</main>
 
-<script>
-	// To add or remove a calendar, edit this list.
-	const BASE = "https://jamespogue.github.io/calendars/";
-	const GROUPS = [
-		{
-			title: "Spring 2027",
-			calendars: [
-				{ file: "2027-sp-academic-calendar.ics", name: "Lewis University Academic Calendar", description: "Semester start and end, MLK Day, spring and Easter breaks, finals week, and commencement." },
-			],
-		},
-		{
-			title: "Summer 2027",
-			calendars: [
-				{ file: "2027-su-holidays.ics", name: "Lewis University Holidays", description: "Memorial Day, Juneteenth, and Independence Day." },
-			],
-		},
-		{
-			title: "Fall 2026",
-			calendars: [
-				{ file: "f26-cpsc-44000-001.ics", name: "CPSC-44000-001 Software Engineering", description: "Class meetings and the final exam." },
-				{ file: "f26-holidays.ics", name: "Lewis University Holidays", description: "Labor Day, Thanksgiving, and Christmas break." },
-			],
-		},
-		{
-			title: "Other",
-			calendars: [
-				{ file: "ss-cyril-methodius-wednesday-2026-2027.ics", name: "SS. Cyril & Methodius Wednesday Religious Education", description: "2026–2027 school year." },
-			],
-		},
-	];
+		<script>
+			// To add or remove a calendar, edit this list.
+			const BASE = "https://jamespogue.github.io/calendars/";
+			const GROUPS = [
+				{
+					title: "Spring 2027",
+					calendars: [
+						{
+							file: "2027-sp-academic-calendar.ics",
+							name: "Lewis University Academic Calendar",
+							description: "Semester start and end, MLK Day, spring and Easter breaks, finals week, and commencement.",
+						},
+					],
+				},
+				{
+					title: "Summer 2027",
+					calendars: [
+						{
+							file: "2027-su-holidays.ics",
+							name: "Lewis University Holidays",
+							description: "Memorial Day, Juneteenth, and Independence Day.",
+						},
+					],
+				},
+				{
+					title: "Fall 2026",
+					calendars: [
+						{
+							file: "f26-cpsc-44000-001.ics",
+							name: "CPSC-44000-001 Software Engineering",
+							description: "Class meetings and the final exam.",
+						},
+						{
+							file: "f26-holidays.ics",
+							name: "Lewis University Holidays",
+							description: "Labor Day, Thanksgiving, and Christmas break.",
+						},
+					],
+				},
+				{
+					title: "Other",
+					calendars: [
+						{
+							file: "ss-cyril-methodius-wednesday-2026-2027.ics",
+							name: "SS. Cyril & Methodius Wednesday Religious Education",
+							description: "2026–2027 school year.",
+						},
+					],
+				},
+			];
 
-	// Shared Tailwind class lists.
-	const BTN = "inline-block whitespace-nowrap rounded-md border px-3 py-2 text-sm no-underline cursor-pointer transition";
-	const BTN_SECONDARY = BTN + " border-slate-200 bg-slate-100 text-slate-900 hover:bg-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700";
-	const BTN_PRIMARY = BTN + " border-blue-700 bg-blue-700 text-white hover:bg-blue-800 dark:border-blue-400 dark:bg-blue-400 dark:text-slate-950 dark:hover:bg-blue-300";
+			// Shared Tailwind class lists.
+			const BTN =
+				"inline-block whitespace-nowrap rounded-md border px-3 py-2 text-sm no-underline cursor-pointer transition";
+			const BTN_SECONDARY =
+				BTN +
+				" border-slate-200 bg-slate-100 text-slate-900 hover:bg-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700";
+			const BTN_PRIMARY =
+				BTN +
+				" border-blue-700 bg-blue-700 text-white hover:bg-blue-800 dark:border-blue-400 dark:bg-blue-400 dark:text-slate-950 dark:hover:bg-blue-300";
 
-	function el(tag, attrs, ...children) {
-		const node = document.createElement(tag);
-		for (const [k, v] of Object.entries(attrs || {})) {
-			if (k === "onclick") node.addEventListener("click", v);
-			else node.setAttribute(k, v);
-		}
-		node.append(...children);
-		return node;
-	}
+			function el(tag, attrs, ...children) {
+				const node = document.createElement(tag);
+				for (const [k, v] of Object.entries(attrs || {})) {
+					if (k === "onclick") node.addEventListener("click", v);
+					else node.setAttribute(k, v);
+				}
+				node.append(...children);
+				return node;
+			}
 
-	async function copy(text, button) {
-		try {
-			await navigator.clipboard.writeText(text);
-		} catch {
-			const input = button.closest("section").querySelector("input");
-			input.select();
-			document.execCommand("copy");
-		}
-		const label = button.textContent;
-		button.textContent = "Copied!";
-		setTimeout(() => (button.textContent = label), 1500);
-	}
+			async function copy(text, button) {
+				try {
+					await navigator.clipboard.writeText(text);
+				} catch {
+					const input = button.closest("section").querySelector("input");
+					input.select();
+					document.execCommand("copy");
+				}
+				const label = button.textContent;
+				button.textContent = "Copied!";
+				setTimeout(() => (button.textContent = label), 1500);
+			}
 
-	const root = document.getElementById("calendars");
-	for (const group of GROUPS) {
-		root.append(el("h2", { class: "mt-8 mb-3 text-lg font-semibold text-slate-500 dark:text-slate-400" }, group.title));
-		for (const cal of group.calendars) {
-			const https = BASE + cal.file;
-			const webcal = https.replace(/^https?:/, "webcal:");
-			const google = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal);
-			const copyBtn = el("button", { class: BTN_SECONDARY, type: "button" }, "Copy link");
-			copyBtn.addEventListener("click", () => copy(https, copyBtn));
-			root.append(el("section", { class: "mb-3 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900" },
-				el("h3", { class: "mb-0.5 font-semibold" }, cal.name),
-				el("p", { class: "mb-3 text-sm text-slate-600 dark:text-slate-400" }, cal.description),
-				el("input", {
-					type: "text", readonly: "", value: https, "aria-label": cal.name + " link",
-					class: "mb-3 w-full min-w-0 rounded-md border border-slate-200 bg-slate-50 px-2.5 py-2 font-mono text-sm dark:border-slate-700 dark:bg-slate-950",
-					onclick: (e) => e.target.select(),
-				}),
-				el("div", { class: "flex flex-wrap gap-2" },
-					el("a", { class: BTN_PRIMARY, href: webcal }, "Apple / Outlook"),
-					el("a", { class: BTN_SECONDARY, href: google, target: "_blank", rel: "noopener" }, "Google Calendar"),
-					copyBtn,
-					el("a", { class: BTN_SECONDARY, href: https, download: "" }, "Download .ics"),
-				),
-			));
-		}
-	}
-</script>
-</body>
+			const root = document.getElementById("calendars");
+			for (const group of GROUPS) {
+				root.append(
+					el(
+						"h2",
+						{
+							class: "mt-8 mb-3 text-lg font-semibold text-slate-500 dark:text-slate-400",
+						},
+						group.title,
+					),
+				);
+				for (const cal of group.calendars) {
+					const https = BASE + cal.file;
+					const webcal = https.replace(/^https?:/, "webcal:");
+					const google = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal);
+					const copyBtn = el("button", { class: BTN_SECONDARY, type: "button" }, "Copy link");
+					copyBtn.addEventListener("click", () => copy(https, copyBtn));
+					root.append(
+						el(
+							"section",
+							{
+								class: "mb-3 rounded-xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900",
+							},
+							el("h3", { class: "mb-0.5 font-semibold" }, cal.name),
+							el("p", { class: "mb-3 text-sm text-slate-600 dark:text-slate-400" }, cal.description),
+							el("input", {
+								type: "text",
+								readonly: "",
+								value: https,
+								"aria-label": cal.name + " link",
+								class:
+									"mb-3 w-full min-w-0 rounded-md border border-slate-200 bg-slate-50 px-2.5 py-2 font-mono text-sm dark:border-slate-700 dark:bg-slate-950",
+								onclick: (e) => e.target.select(),
+							}),
+							el(
+								"div",
+								{ class: "flex flex-wrap gap-2" },
+								el("a", { class: BTN_PRIMARY, href: webcal }, "Apple / Outlook"),
+								el(
+									"a",
+									{
+										class: BTN_SECONDARY,
+										href: google,
+										target: "_blank",
+										rel: "noopener",
+									},
+									"Google Calendar",
+								),
+								copyBtn,
+								el("a", { class: BTN_SECONDARY, href: https, download: "" }, "Download .ics"),
+							),
+						),
+					);
+				}
+			}
+		</script>
+	</body>
 </html>
