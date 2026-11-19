@@ -1,0 +1,68 @@
+{
+	"id": "2027-sp",
+	"label": "SP27",
+	"name": "Spring 2027",
+	"timezone": "America/Chicago",
+	"classesStart": "2027-01-19",
+	"classesEnd": "2027-05-08",
+	"calendar": {
+		"file": "2027-sp-academic-calendar.ics",
+		"prodid": "-//Lewis University//Spring 2027 Academic Calendar//EN",
+		"name": "SP27 Lewis University Academic Calendar"
+	},
+	"events": [
+		{
+			"summary": "Martin Luther King Day",
+			"start": "2027-01-18",
+			"end": "2027-01-18",
+			"noClasses": true,
+			"uid": "f99815fe-23a4-4379-a7a6-1d0ef54e6f57@lewisu-holidays",
+			"dtstamp": "20260907T220822Z"
+		},
+		{
+			"summary": "Start of Spring Semester",
+			"start": "2027-01-19",
+			"end": "2027-01-19",
+			"uid": "bae7d0ff-f130-49aa-9fef-5c09142c475f@lewisu-holidays",
+			"dtstamp": "20261119T012039Z"
+		},
+		{
+			"summary": "Spring Break",
+			"start": "2027-03-15",
+			"end": "2027-03-19",
+			"noClasses": true,
+			"uid": "31177bf7-b1c5-4867-9250-cace6443c915@lewisu-holidays",
+			"dtstamp": "20261119T011540Z"
+		},
+		{
+			"summary": "Easter Holiday Break",
+			"start": "2027-03-25",
+			"end": "2027-03-29",
+			"noClasses": true,
+			"uid": "923bb634-0870-4436-b617-fc36c5ba6573@lewisu-holidays",
+			"dtstamp": "20261119T011623Z"
+		},
+		{
+			"summary": "Finals Week",
+			"start": "2027-05-10",
+			"end": "2027-05-15",
+			"noClasses": true,
+			"uid": "24160546-37aa-4bd3-b854-f12a057332d1@lewisu-holidays",
+			"dtstamp": "20261119T012726Z"
+		},
+		{
+			"summary": "Commencement Weekend",
+			"start": "2027-05-14",
+			"end": "2027-05-15",
+			"uid": "5a138efa-d3e9-45e0-bfa4-44818b3ef80c@lewisu-holidays",
+			"dtstamp": "20261119T012148Z"
+		},
+		{
+			"summary": "End of Spring Semester",
+			"start": "2027-05-15",
+			"end": "2027-05-15",
+			"uid": "31e195aa-0b12-42f2-860d-a59c1df57ce9@lewisu-holidays",
+			"dtstamp": "20261119T012039Z"
+		}
+	]
+}

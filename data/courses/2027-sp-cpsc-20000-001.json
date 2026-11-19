@@ -1,0 +1,19 @@
+{
+	"term": "2027-sp",
+	"subject": "CPSC",
+	"number": "20000",
+	"section": "001",
+	"crn": "10898",
+	"title": "Introduction to Computer Science",
+	"dtstamp": "20261119T051124Z",
+	"reminderMinutes": 15,
+	"meetings": [
+		{
+			"days": ["TU", "TH"],
+			"start": "11:00",
+			"end": "12:15",
+			"location": "AS 104A, Academic Science Center, Romeoville Campus"
+		}
+	],
+	"final": null
+}

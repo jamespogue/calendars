@@ -1,0 +1,19 @@
+{
+	"term": "2027-sp",
+	"subject": "CPSC",
+	"number": "44000",
+	"section": "001",
+	"crn": "10956",
+	"title": "Software Engineering",
+	"dtstamp": "20261119T051124Z",
+	"reminderMinutes": 15,
+	"meetings": [
+		{
+			"days": ["TU", "TH"],
+			"start": "09:30",
+			"end": "10:45",
+			"location": "AS 104A, Academic Science Center, Romeoville Campus"
+		}
+	],
+	"final": null
+}

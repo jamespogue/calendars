@@ -1,0 +1,19 @@
+{
+	"term": "2027-sp",
+	"subject": "CPSC",
+	"number": "49200",
+	"section": "002",
+	"crn": "10961",
+	"title": "Software Systems Capstone Project",
+	"dtstamp": "20261119T051124Z",
+	"reminderMinutes": 15,
+	"meetings": [
+		{
+			"days": ["TU"],
+			"start": "14:00",
+			"end": "15:15",
+			"location": "AS 120S, Academic Science Center, Romeoville Campus"
+		}
+	],
+	"final": null
+}

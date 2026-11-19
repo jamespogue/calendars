@@ -13,6 +13,16 @@ Subscribable iCalendar (.ics) files for Lewis University courses and related sch
 - New files: `YYYY-<term>-<name>.ics`, where term is `sp`, `su`, or `fa`. Examples: `2027-sp-academic-calendar.ics`, `2027-sp-cpsc-44000-001.ics`.
 - Older `f26-*` files keep their names (see above).
 
+## Generated calendars (2027 spring onward)
+
+- **Data is the source of truth.** `data/terms/<term>.json` holds a term's class dates and all-day events; `data/courses/<term>-<subject>-<number>-<section>.json` holds one section (CRN, title, meetings, room, final). Edit the JSON, never a generated `.ics`.
+- Generate with `go run ./cmd/gencal`. `go run ./cmd/gencal -check` exits 1 if any calendar is out of date with its data.
+- Term events marked `"noClasses": true` become `EXDATE`s in every course of that term automatically.
+- UIDs are derived from term and course (e.g. `2027-sp-cpsc-44000-001-class@lewisu.edu`), so regenerating updates subscribers' events instead of duplicating them. Events published before the generator keep their original `uid` and `dtstamp` in the JSON; never change those.
+- Data files are public on GitHub Pages. CRNs, rooms, and times are fine; never store student information.
+- Older calendars (`f26-*`, `2027-su-holidays.ics`, `ss-cyril-…`) are hand-maintained.
+- Before committing generator changes: `gofmt -l .`, `go vet ./...`, `go test -race ./...`, and staticcheck. With Go 1.22.3 on this Mac, staticcheck needs the external linker: `go run -ldflags=-linkmode=external honnef.co/go/tools/cmd/staticcheck@2024.1.1 ./...`.
+
 ## File format
 
 - RFC 5545 with **CRLF line endings**. Preserve them when editing (e.g. Python with `newline=""`); don't use `sed -i` on .ics files. `.gitattributes` marks `*.ics` as `-text` so git stores them byte-for-byte (GitHub Pages serves the stored bytes); everything else is LF.
