@@ -1,0 +1,6 @@
+# LF everywhere.
+* text=auto eol=lf
+
+# iCalendar files require CRLF (RFC 5545). GitHub Pages serves the bytes stored in the repo,
+# so git must never convert them: store and check out exactly as written.
+*.ics -text
